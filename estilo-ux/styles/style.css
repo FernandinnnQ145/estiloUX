@@ -4,9 +4,6 @@
 font-family: 'Titillium Web', sans-serif;
  */
 
- *{
-     
- }
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -16,14 +13,16 @@ header {
     background-color: grey;
 }
 header h1 {
-    text-transform: lowercase;
     color: white;
     font-family: 'Titillium Web', sans-serif;
 }
 header .grid-layout{
     width: 80%;
     margin: 0 auto;
-    background-color: yellowgreen;
+}
+header .header-flex{
+    display: flex;
+        justify-content: space-between;
 }
 header h1 #logoux{
     font-family: 'Titillium Web', sans-serif;
@@ -31,5 +30,14 @@ header h1 #logoux{
     font-style: italic;
     font-weight: 600;
     font-size: 30px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ width: 300px;
 
+}
+header nav a {
+    color: white;
 }
